@@ -1,4 +1,4 @@
 flask
-pyzxing
+pyzbar
 opencv-python
 numpy
