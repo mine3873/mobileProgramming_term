@@ -1,10 +1,5 @@
 services:
   - type: web
     name: flask-barcode-server
-    env: python
     plan: free
-    buildCommand: |
-      apt-get update
-      apt-get install -y libzbar0
-      pip install -r requirements.txt
-    startCommand: python server.py
+    dockerfilePath: ./Dockerfile
