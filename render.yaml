@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: flask-barcode-server
+    plan: free
+    dockerfilePath: ./Dockerfile
